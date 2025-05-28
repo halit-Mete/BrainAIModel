@@ -1,2 +1,2 @@
 [phases.setup]
-nixPkgs = ["libGL", "libGLU"]
+nixPkgs = ["python39", "libGL", "libGLU"]
