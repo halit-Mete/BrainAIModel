@@ -64,7 +64,7 @@ def predict_tumor(image_path):
         'glioma_tumor': 'Glioma tümörü tespit edildi.',
         'meningioma_tumor': 'Meningioma tümörü tespit edildi.',
         'pituitary_tumor': 'Tümör tespit edilmedi.',
-        'no_tumor': 'Hipofiz tümörü tespit edildi.'
+        'no_tumor': 'Hipofiz(Pituitary) tümörü tespit edildi.'
     }
 
     predicted_class = categories[class_index]
